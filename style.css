@@ -8,14 +8,8 @@
 
     display: flex;
 }
-@media (max-width: 900px) {
-
-  
-}
 .aside{
     width: 306px;
-
-
 }
 @media(max-width:900px ){
 
@@ -229,6 +223,7 @@ color: #757575;
     width: 100%;
 }
 }
+
 .main__greeting{
 margin-top: 41px;
 margin-left: 71px;
@@ -244,6 +239,17 @@ height: 812px;
 margin-left: 71px;
 margin-right: 95px;
 margin-top: 51px;
+}
+@media(max-width: 1030px){
+ .main{
+       
+         background: white;
+
+
+    }
+       .main__container{
+        box-shadow: none;
+       }
 }
  @media(max-width: 900px) {
     .aside__person{
@@ -365,10 +371,11 @@ color: #B5B7C0 !important;
     display: flex;
     justify-content: space-between;
 }
-@media (max-width: 350px) {
+@media (max-width: 380px) {
    .main__entries{
     display: flex;
     flex-direction: column;
+       margin-left: 10px;
    }
    .main__entries-quantity{
     margin-bottom: 20px;
